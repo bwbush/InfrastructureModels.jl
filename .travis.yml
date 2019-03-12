@@ -5,13 +5,10 @@ os:
 julia:
   - 1.0
   - 1.1
-<<<<<<< HEAD
-=======
   - nightly
 matrix:
   allow_failures:
     - julia: nightly
->>>>>>> REF: removes support for Julia v0.6/v0.7
 cache:
  directories:
    - /home/travis/.julia
